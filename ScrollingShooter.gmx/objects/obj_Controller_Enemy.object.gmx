@@ -42,6 +42,15 @@ enemy4_height = sprite_get_height(spr_Enemy4);
 instance_create(irandom_range(enemy1_width/2, room_width - enemy1_width/2), -enemy1_height/2, obj_Enemy1);
 instance_create(irandom_range(enemy1_width/2, room_width - enemy1_width/2), -5*enemy1_height/2, obj_Enemy1);
 
+instance_create(irandom_range(enemy2_width/2, room_width - enemy2_width/2), -enemy2_height/2, obj_Enemy2);
+instance_create(irandom_range(enemy2_width/2, room_width - enemy2_width/2), -5*enemy2_height/2, obj_Enemy2);
+
+instance_create(irandom_range(enemy3_width/2, room_width - enemy3_width/2), -enemy3_height/2, obj_Enemy3);
+instance_create(irandom_range(enemy3_width/2, room_width - enemy3_width/2), -5*enemy3_height/2, obj_Enemy3);
+
+instance_create(irandom_range(enemy4_width/2, room_width - enemy4_width/2), -enemy4_height/2, obj_Enemy4);
+instance_create(irandom_range(enemy4_width/2, room_width - enemy4_width/2), -5*enemy4_height/2, obj_Enemy4);
+
 alarm[0] = 200;
 alarm[1] = 1000;
 alarm[2] = 2000;
